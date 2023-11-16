@@ -1,0 +1,15 @@
+C:\Users\Al Badr\source\repos\Department prject PL\Deapartment project PL\bin\Debug\net5.0\Deapartment project BLL.deps.json
+C:\Users\Al Badr\source\repos\Department prject PL\Deapartment project PL\bin\Debug\net5.0\Deapartment project BLL.dll
+C:\Users\Al Badr\source\repos\Department prject PL\Deapartment project PL\bin\Debug\net5.0\Deapartment project BLL.pdb
+C:\Users\Al Badr\source\repos\Department prject PL\Deapartment project PL\bin\Debug\net5.0\Department project DAL.dll
+C:\Users\Al Badr\source\repos\Department prject PL\Deapartment project PL\bin\Debug\net5.0\Department project DAL.pdb
+C:\Users\Al Badr\source\repos\Department prject PL\Deapartment project PL\obj\Debug\net5.0\Deapartment project BLL.csproj.AssemblyReference.cache
+C:\Users\Al Badr\source\repos\Department prject PL\Deapartment project PL\obj\Debug\net5.0\Deapartment project BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Al Badr\source\repos\Department prject PL\Deapartment project PL\obj\Debug\net5.0\Deapartment project BLL.AssemblyInfoInputs.cache
+C:\Users\Al Badr\source\repos\Department prject PL\Deapartment project PL\obj\Debug\net5.0\Deapartment project BLL.AssemblyInfo.cs
+C:\Users\Al Badr\source\repos\Department prject PL\Deapartment project PL\obj\Debug\net5.0\Deapartment project BLL.csproj.CoreCompileInputs.cache
+C:\Users\Al Badr\source\repos\Department prject PL\Deapartment project PL\obj\Debug\net5.0\Deapartment project BLL.csproj.CopyComplete
+C:\Users\Al Badr\source\repos\Department prject PL\Deapartment project PL\obj\Debug\net5.0\Deapartment project BLL.dll
+C:\Users\Al Badr\source\repos\Department prject PL\Deapartment project PL\obj\Debug\net5.0\refint\Deapartment project BLL.dll
+C:\Users\Al Badr\source\repos\Department prject PL\Deapartment project PL\obj\Debug\net5.0\Deapartment project BLL.pdb
+C:\Users\Al Badr\source\repos\Department prject PL\Deapartment project PL\obj\Debug\net5.0\ref\Deapartment project BLL.dll

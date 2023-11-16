@@ -1,0 +1,46 @@
+﻿@model ItemViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<br />
+
+<h2> @Model.Name </h2>
+<br />
+<div>
+    <img src="@Model.image.Path" width="500" height="390">
+</div>
+
+<br />
+@if(Model.Description is not null)
+{
+    <div style="background-color:lightblue"> <p class="text-black"> @Model.Description </p></div>
+
+}
+else
+{
+    <div style="background-color:lightblue"> <p class="text-black"> NO Description For This Item </p></div>
+}
+
+<br />
+<div style="background-color:lightblue"> <p class="text-black"> Units In Stock is @Model.UnitsInStock </p></div>
+
+<br />
+<div style="background-color:lightblue"> <p class="text-black"> price of this item is  @Model.Price </p></div>
+
+<br />
+
+<br />
+
+<div > <a asp-action="Order" asp-route-id="@Model.Id" class="btn btn-primary"> Order Item</a> </div>
+<br />
+@if(User.IsInRole("Admin"))
+{
+    <div> <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-success"> Delete This Item</a> </div>
+    <br />
+    <div> <a asp-action="Update" class="btn btn-info" asp-route-id="@Model.Id"> Update Item</a> </div>
+    <br />
+}
+
+<div> <a asp-action="Index"  class="btn btn-success"> Back To Main Page</a> </div>

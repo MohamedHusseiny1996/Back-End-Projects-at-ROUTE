@@ -1,0 +1,15 @@
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteBLL\bin\Debug\net6.0\AmazonWebSiteBLL.deps.json
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteBLL\bin\Debug\net6.0\AmazonWebSiteBLL.dll
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteBLL\bin\Debug\net6.0\AmazonWebSiteBLL.pdb
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteBLL\bin\Debug\net6.0\AmazonWebSiteDAL.dll
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteBLL\bin\Debug\net6.0\AmazonWebSiteDAL.pdb
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteBLL\obj\Debug\net6.0\AmazonWebSiteBLL.csproj.AssemblyReference.cache
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteBLL\obj\Debug\net6.0\AmazonWebSiteBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteBLL\obj\Debug\net6.0\AmazonWebSiteBLL.AssemblyInfoInputs.cache
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteBLL\obj\Debug\net6.0\AmazonWebSiteBLL.AssemblyInfo.cs
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteBLL\obj\Debug\net6.0\AmazonWebSiteBLL.csproj.CoreCompileInputs.cache
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteBLL\obj\Debug\net6.0\AmazonWebSiteBLL.csproj.CopyComplete
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteBLL\obj\Debug\net6.0\AmazonWebSiteBLL.dll
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteBLL\obj\Debug\net6.0\refint\AmazonWebSiteBLL.dll
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteBLL\obj\Debug\net6.0\AmazonWebSiteBLL.pdb
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteBLL\obj\Debug\net6.0\ref\AmazonWebSiteBLL.dll

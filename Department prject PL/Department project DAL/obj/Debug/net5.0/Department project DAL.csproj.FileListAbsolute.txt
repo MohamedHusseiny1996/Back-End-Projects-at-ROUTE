@@ -1,0 +1,12 @@
+C:\Users\Al Badr\source\repos\Department prject PL\Department project DAL\bin\Debug\net5.0\Department project DAL.deps.json
+C:\Users\Al Badr\source\repos\Department prject PL\Department project DAL\bin\Debug\net5.0\Department project DAL.dll
+C:\Users\Al Badr\source\repos\Department prject PL\Department project DAL\bin\Debug\net5.0\Department project DAL.pdb
+C:\Users\Al Badr\source\repos\Department prject PL\Department project DAL\obj\Debug\net5.0\Department project DAL.csproj.AssemblyReference.cache
+C:\Users\Al Badr\source\repos\Department prject PL\Department project DAL\obj\Debug\net5.0\Department project DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Al Badr\source\repos\Department prject PL\Department project DAL\obj\Debug\net5.0\Department project DAL.AssemblyInfoInputs.cache
+C:\Users\Al Badr\source\repos\Department prject PL\Department project DAL\obj\Debug\net5.0\Department project DAL.AssemblyInfo.cs
+C:\Users\Al Badr\source\repos\Department prject PL\Department project DAL\obj\Debug\net5.0\Department project DAL.csproj.CoreCompileInputs.cache
+C:\Users\Al Badr\source\repos\Department prject PL\Department project DAL\obj\Debug\net5.0\Department project DAL.dll
+C:\Users\Al Badr\source\repos\Department prject PL\Department project DAL\obj\Debug\net5.0\refint\Department project DAL.dll
+C:\Users\Al Badr\source\repos\Department prject PL\Department project DAL\obj\Debug\net5.0\Department project DAL.pdb
+C:\Users\Al Badr\source\repos\Department prject PL\Department project DAL\obj\Debug\net5.0\ref\Department project DAL.dll

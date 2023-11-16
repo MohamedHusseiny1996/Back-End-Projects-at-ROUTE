@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AmazonWebSite</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+   @* <link rel="stylesheet" href="~/AmazonWebSite.styles.css" asp-append-version="true" />*@
+</head>
+<body >
+    <header style="background-color:black ">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  border-bottom box-shadow mb-3" >
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">AmazonWebSite</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1" >
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        @if(User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item ">
+                                <a class="nav-link text-light" asp-area="" asp-controller="User" asp-action="Index">Users</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Role" asp-action="Index">Roles</a>
+                            </li>
+                        }
+                       
+                        
+                        
+                    </ul>
+                    @if (User.IsInRole("Admin") || User.IsInRole("Normal User") || User.IsInRole("HR"))
+                    {
+                        <a class="btn btn-danger " style="justify-content:right" asp-area="" asp-controller="Account" asp-action="SignOut">SignOut</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-success " style="justify-content:right" asp-area="" asp-controller="Account" asp-action="LogIn">SignIn</a>
+                    }
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3" style="background-color:#FFFFFF">
+            @if (User.IsInRole("Admin"))
+            {
+                <h3 class="text-danger">Admin Mode Is On</h3>
+            }
+            @RenderBody()
+        </main>
+    </div>
+
+    <center>
+
+        <footer class="border-top footer text-muted offcanvas-bottom m-2 " style="background-color:darkgray ">
+            <div class="container text-dark text-md-center ">
+                &copy; 2023 - AmazonWebSite made by mohamed husseiny - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
+
+    </center>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    @await RenderSectionAsync("ValidationScrepts",required:false)
+</body>
+</html>

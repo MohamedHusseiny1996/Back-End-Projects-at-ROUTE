@@ -1,0 +1,70 @@
+﻿
+@model IEnumerable<ItemViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+    
+    
+}
+
+<h1>Items</h1>
+<br />
+@if(User.IsInRole("Admin"))
+{
+    <a asp-action="Create" class="btn btn-success">
+        Create item
+    </a>
+}
+
+<br />
+<br />
+<form asp-action="Index" style=" display:flex ; justify-content:center">
+    <span class="form-group" style="width:500px ; display:flex ; align-items:center">
+        <span class="form-group">
+
+
+            <input type="submit" value="Search" class="btn btn-info" />
+
+        </span>
+        
+        <input name="Name" class="form-control" placeholder="Search for item by name" style=" display:flex ;text-align:right"  />
+
+        <select name="Category" class="form-control" style=" display:flex ; width:80px">
+            @foreach (var category in @ViewBag.categories)
+            {
+                <option value=@category>@category</option>
+            }
+            <option selected="selected" value="">الكل</option>
+        </select>
+
+    </span>
+    
+    
+</form>
+<br />
+<br />
+<br />
+@foreach(var item in Model )
+{
+  <a asp-action="Details" asp-route-id="@item.Id">
+        <span class="m-1 d-inline-block align-top " style="border: 2px solid #F7F7F7; border-radius: 15px;">
+
+            <span class="d-block text-center " style="background-color:#F7F7F7 ;border-radius: 25px;">
+        
+                ( @item.Name )
+
+        </span>
+        <br/> 
+            <span class="d-block" >
+                <img src="@item.image.Path" width="250" height="190" >
+        </span>
+        <br/>
+            <span class="d-block text-center" style="background-color:#F7F7F7 ; border-radius: 25px;">
+            
+                   قسم @item.Category 
+  
+        </span>
+        
+    </span>
+    </a>
+}
+

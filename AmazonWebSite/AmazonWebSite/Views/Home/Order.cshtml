@@ -1,0 +1,108 @@
+﻿@model OrdersViewModel
+@{
+    ViewData["Title"] = "Order";
+    var item = (ItemViewModel)ViewBag.ItemViewModell;
+}
+
+@*<h1>Ordering @item.Name</h1>
+<br />
+<br />
+<br />
+
+
+<span class="d-inline-block align-top m-5">
+
+   
+    <span class="d-block">
+        <img src="@item.image.Path" width="100" height="70">
+    </span>
+
+    <br />
+    @if (item.Description is not null)
+    {
+        <span class="d-block w-100" style="background-color:lightblue"> <p class="text-black"> @item.Description </p></span>
+
+    }
+    else
+    {
+        <span class="d-block w-100" style="background-color:lightblue"> <p class="text-black"> NO Description For This Item </p></span>
+    }
+
+   
+    <br />
+    <span class="d-block w-100" style="background-color:lightblue"> <p class="text-black"> price of this item is  @item.Price </p></span>
+
+    <br />
+
+    <br />
+
+    
+
+</span>*@
+
+@*********************************************************************************************************@
+
+<span class="d-inline-block align-top m-5">
+    
+    <form asp-action="Order" method="post">
+
+        <span class="form-group d-block">
+            <label asp-for="@Model.Name" class="col-form-label"></label>
+            <input asp-for="@Model.Name" class="form-control" />
+            <span asp-validation-for="@Model.Name" class="text-danger"></span>
+
+        </span>
+
+        <span class="form-group d-block">
+            <label asp-for="@Model.PhoneNumber" class="col-form-label"></label>
+            <input asp-for="@Model.PhoneNumber" class="form-control" />
+            <span asp-validation-for="@Model.PhoneNumber" class="text-danger"></span>
+
+        </span>
+
+        <span class="form-group d-block">
+            <label asp-for="@Model.Address" class="col-form-label"></label>
+            <input asp-for="@Model.Address" class="form-control" />
+            <span asp-validation-for="@Model.Address" class="text-danger"></span>
+
+        </span>
+
+        <span class="form-group d-block">
+            <label asp-for="@Model.CountOfItems" class="col-form-label"></label>
+            <input asp-for="@Model.CountOfItems" class="form-control" />
+            <span asp-validation-for="@Model.CountOfItems" class="text-danger"></span>
+
+        </span>
+
+        <span class="form-group d-block">
+            
+            <input asp-for="@Model.ItemID" value="@item.Id" class="form-control" hidden />
+          
+
+        </span>
+
+
+        <br />
+        <br />
+
+        <span class="d-block form-group">
+            <input type="submit" value="Save" class="btn btn-success " />
+        </span>
+        
+
+    </form>
+
+        <br />
+        <br />
+        <span class="d-block"> <a asp-action="Index" class="btn btn-info"> Back To Main Page</a> </span>
+   
+
+    </span>
+
+
+    @section ValidationScrepts
+        {
+        <partial name="_ValidationScriptsPartial">  </partial>
+    }
+ 
+ 

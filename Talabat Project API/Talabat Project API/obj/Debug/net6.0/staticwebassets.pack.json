@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Al Badr\\source\\repos\\Talabat Project API\\Talabat Project API\\wwwroot\\images\\products\\sb-ang2.png",
+      "PackagePath": "staticwebassets\\images\\products\\sb-ang2.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Talabat Project API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Talabat Project API.props",
+      "PackagePath": "build\\Talabat Project API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Talabat Project API.props",
+      "PackagePath": "buildMultiTargeting\\Talabat Project API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Talabat Project API.props",
+      "PackagePath": "buildTransitive\\Talabat Project API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

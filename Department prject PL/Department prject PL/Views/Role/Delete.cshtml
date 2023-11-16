@@ -1,0 +1,42 @@
+﻿@model RoleViewModel
+@{
+    ViewData["Title"] = "Delete";
+   
+}
+
+<h1 class="text-danger">Are you sure you want to delete this user</h1>
+
+
+<br />
+<br />
+
+<form asp-action="Delete">
+
+    <div class="form-group">
+        <label asp-for="@Model.Id" class="col-form-label"></label>
+        <input asp-for="@Model.Id" class="form-control" readonly />
+
+
+    </div>
+
+    
+
+    <div class="form-group">
+        <label asp-for="@Model.RoleName" class="col-form-label"></label>
+        <input asp-for="@Model.RoleName" class="form-control" readonly />
+
+
+    </div>
+
+    
+    <div>
+        <input type="submit" value="Delete" class="btn btn-success" />
+       
+    </div>
+    <br />
+    <div>
+        <a asp-action="Index" class="btn btn-info">BackToList</a>
+    </div>
+
+</form>
+

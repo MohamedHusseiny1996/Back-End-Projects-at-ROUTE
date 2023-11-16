@@ -1,0 +1,51 @@
+﻿@model EmployeeViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<br />
+<br />
+
+<form asp-action="Update">
+
+    <div class="form-group">
+        <label asp-for="@Model.Name" class="col-form-label"></label>
+        <input asp-for="@Model.Name" class="form-control" readonly />
+
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.Salary" class="col-form-label"></label>
+        <input asp-for="@Model.Salary" class="form-control" readonly />
+
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.HiringDate" class="col-form-label"></label>
+        <input asp-for="@Model.HiringDate" class="form-control" readonly />
+
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.DepartmentId" class="col-form-label"></label>
+        <input asp-for="@Model.DepartmentId" class="form-control" readonly />
+
+
+    </div>
+
+
+    <div>
+
+        <a class="btn btn-success" asp-action="Update" asp-route-id="@Model.Id">Edit</a>
+    </div>
+    <br />
+    <div>
+        <a asp-action="Index" class="btn btn-info">BackToList</a>
+    </div>
+
+</form>

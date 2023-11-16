@@ -1,0 +1,12 @@
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteDAL\bin\Debug\net6.0\AmazonWebSiteDAL.deps.json
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteDAL\bin\Debug\net6.0\AmazonWebSiteDAL.dll
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteDAL\bin\Debug\net6.0\AmazonWebSiteDAL.pdb
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteDAL\obj\Debug\net6.0\AmazonWebSiteDAL.csproj.AssemblyReference.cache
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteDAL\obj\Debug\net6.0\AmazonWebSiteDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteDAL\obj\Debug\net6.0\AmazonWebSiteDAL.AssemblyInfoInputs.cache
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteDAL\obj\Debug\net6.0\AmazonWebSiteDAL.AssemblyInfo.cs
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteDAL\obj\Debug\net6.0\AmazonWebSiteDAL.csproj.CoreCompileInputs.cache
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteDAL\obj\Debug\net6.0\AmazonWebSiteDAL.dll
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteDAL\obj\Debug\net6.0\refint\AmazonWebSiteDAL.dll
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteDAL\obj\Debug\net6.0\AmazonWebSiteDAL.pdb
+C:\Users\Al Badr\source\repos\AmazonWebSite\AmazonWebSiteDAL\obj\Debug\net6.0\ref\AmazonWebSiteDAL.dll

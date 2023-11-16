@@ -1,0 +1,64 @@
+﻿@model UsersViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<br />
+<br />
+
+<form asp-action="Update">
+
+    <div class="form-group">
+        <label asp-for="@Model.Name" class="col-form-label"></label>
+        <input asp-for="@Model.Name" class="form-control" readonly />
+
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.PhoneNumber" class="col-form-label"></label>
+        <input asp-for="@Model.PhoneNumber" class="form-control" readonly />
+
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.Email" class="col-form-label"></label>
+        <input asp-for="@Model.Email" class="form-control" readonly />
+
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.Id" class="col-form-label"></label>
+        <input asp-for="@Model.Id" class="form-control" readonly />
+
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.DateOfCreation" class="col-form-label"></label>
+        <input asp-for="@Model.DateOfCreation" class="form-control" readonly />
+
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.Roles" class="col-form-label"></label>
+        <input asp-for="@Model.Roles" class="form-control" readonly />
+
+
+    </div>
+    <div>
+
+        <a class="btn btn-success" asp-action="Update" asp-route-id="@Model.Id">Edit</a>
+    </div>
+    <br />
+    <div>
+        <a asp-action="Index" class="btn btn-info">BackToList</a>
+    </div>
+
+</form>
+

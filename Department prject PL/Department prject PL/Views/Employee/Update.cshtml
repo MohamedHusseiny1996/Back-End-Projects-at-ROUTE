@@ -1,0 +1,55 @@
+﻿@model EmployeeViewModel
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Update</h1>
+
+<br />
+<br />
+
+<form asp-action="Update">
+
+    <div class="form-group">
+        <label asp-for="@Model.Name" class="col-form-label"></label>
+        <input asp-for="@Model.Name" class="form-control" />
+        <span asp-validation-for="@Model.Name" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.Salary" class="col-form-label"></label>
+        <input asp-for="@Model.Salary" class="form-control" />
+        <span asp-validation-for="@Model.Salary" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.HiringDate" class="col-form-label"></label>
+        <input asp-for="@Model.HiringDate" class="form-control" />
+        <span asp-validation-for="@Model.HiringDate" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.DepartmentId" class="col-form-label"></label>
+        <input asp-for="@Model.DepartmentId" class="form-control" />
+        <span asp-validation-for="@Model.DepartmentId" class="text-danger"></span>
+
+    </div>
+
+
+    <div>
+        <input type="submit" value="Save" class="btn btn-success" />
+    </div>
+    <br />
+    <div>
+        <a asp-action="Index" class="btn btn-info">BackToList</a>
+    </div>
+
+</form>
+
+@section ValidationScripts
+    {
+    <partial name="_ValidationScriptsPartial">   </partial>
+}

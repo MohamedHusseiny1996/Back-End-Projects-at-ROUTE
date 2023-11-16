@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "qvdEGz+nlAD3TvIoB08lfW89Ec+/LVTjZ26v0orV+0Q=",
+  "Source": "Talabat Project API",
+  "BasePath": "_content/Talabat Project API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Talabat Project API\\wwwroot",
+      "Source": "Talabat Project API",
+      "ContentRoot": "C:\\Users\\Al Badr\\source\\repos\\Talabat Project API\\Talabat Project API\\wwwroot\\",
+      "BasePath": "_content/Talabat Project API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Al Badr\\source\\repos\\Talabat Project API\\Talabat Project API\\wwwroot\\images\\products\\sb-ang2.png",
+      "SourceId": "Talabat Project API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Al Badr\\source\\repos\\Talabat Project API\\Talabat Project API\\wwwroot\\",
+      "BasePath": "_content/Talabat Project API",
+      "RelativePath": "images/products/sb-ang2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang2.png"
+    }
+  ]
+}
